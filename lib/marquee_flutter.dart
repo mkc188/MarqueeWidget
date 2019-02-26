@@ -33,7 +33,7 @@ class MarqueeWidgetState extends State<MarqueeWidget> with SingleTickerProviderS
   double position=0.0;
   Timer timer;
   final double _moveDistance=3.0;
-  final int _timerRest=100;
+  final int _timerRest=1000;
   GlobalKey _key=GlobalKey();
 
 
